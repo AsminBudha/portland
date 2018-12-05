@@ -1,0 +1,343 @@
+.header{
+	
+}
+.container{
+	background: #E4E5E7;
+	padding-top: 50px;
+}
+.footer{
+	
+}
+.wrapper{
+	width: 1170px;
+}
+.align-center{
+	margin-left: auto;
+	margin-right: auto;
+}
+.header-top-left{
+	/*background: brown;*/
+	float: left;
+}
+.header-top-menu{
+	/*background: gray;*/
+	float: left;
+	width: 860px;
+}
+.header-top-right{
+	/*background: green;*/
+	float: right;
+}
+.header-top-right-cart{
+	float: left;
+	font-size: 11px;
+	font-weight: 500;
+}
+.header-top-right-cart img{
+	vertical-align: middle;
+}
+
+.header-top-right-signin{
+	float: right;
+	margin-left: 22px;
+}
+.header-nav-bar-menu{
+	float: left;
+	/*background: gray;*/
+}
+.header-nav-bar-search{
+	float: right;
+	background: green;
+}
+.header-banner{
+	background: #1C1E23;
+	position: relative;
+}
+.header-banner-prod-details{
+	float: left;
+}
+.header-banner-prod-img{
+	float: right;
+	max-height: 500px;
+	margin-right: 195px;
+}
+.header-banner-right-slide{
+	position: absolute;
+	right: 165px;
+	top: 48%;
+}
+.header-banner-left-slide{
+	position: absolute;
+	left: 165px;
+	top: 48%;
+}
+.header-banner-pagination{
+	position: absolute;
+	top: 92%;
+	right: 48%;
+}
+.header-top-left-menu{
+	float: left;
+}
+.header-top-left-logo{
+	float: left;
+}
+.container-items{
+	margin-bottom: 52px;
+}
+.container-items-sort-left{
+	width: 245px;
+	text-align: center;
+	float: left;
+}
+.container-items-sort-left span{
+	color: #A1A8BD;
+	font-weight: 500;
+}
+.container-items-sort-mid{
+	width: 697px;
+	text-align: center;
+	float: left;
+	text-align: center;
+}
+.container-items-sort-mid ul{
+	list-style-type: none;
+	display: inline-block;
+}
+.container-items-sort-mid ul li{
+	float: left;
+	padding-left: 30px;
+}
+.container-items-sort-mid ul li span{
+	padding-right: 24px;
+	color: #A1A8BD;
+	font-weight: 500;
+}
+.container-items-sort-mid ul li span.shipping-txt{
+	color: black;
+	font-weight: 500;
+}
+
+.container-items-sort-mid input[type=text]{
+	
+	height: 28px;
+	padding-left: 5px;
+	padding-right: 5px;
+}
+.container-items-sort-mid input.keywords{
+	width: 150px;
+
+}
+.container-items-sort-mid input.price{
+	width: 62px;
+}
+
+.col2-left-layout-left{
+	float: left;
+}
+.col2-left-layout-right{
+	float: right;
+	/*width: 870px;*/
+}
+.filter-container{
+	border-radius: 5px;
+	width: 270px;
+	background: white;
+	margin-top: 30px;
+}
+.filter-container:nth-child(1){
+	margin-top: 0px;
+}
+.container-items-main{
+	margin-top: 30px;
+}
+.container-items-pagination{
+	background: white;
+	line-height: 50px;
+	text-align: center;
+	/*padding-left: 98px;*/
+	/*padding-right: 98px;*/
+	border-radius: 5px;
+}
+.container-items-pagination .list{
+	width: 66%;
+	text-align: center;
+	float: left;
+	margin-top: 2%;
+}
+.container-items-pagination ul{
+	list-style-type: none;
+}
+.container-items-pagination ul li{
+	/*float: left;*/
+	display: inline-block;
+	padding-left: 20px;
+	padding-right: 20px;
+	font-size: 14px;
+	font-weight: 600;
+}
+.container-items-pagination ul li.active{
+	border-radius: 50%;
+	box-shadow: 2px 0px 12px 0px black;
+}
+.container-items-pagination .img{
+	vertical-align: middle;
+	display: inline-block;
+	float: left;
+	line-height: 90px;
+	width: 195px;
+}
+.container-items-pagination .img:nth-child(1){
+	border-right: 1px solid #F0F2F7;
+}
+
+.container-items-pagination .img:nth-last-child(1){
+	border-left: 1px solid #F0F2F7;
+}
+.container-items-best-sell{
+	text-align: center;
+	margin-top: 50px;
+	background: white;
+	border-radius: 5px;
+}
+.container-items-best-sell .title{
+	line-height: 55px;
+	font-size: 11pt;
+	border-bottom: 1px solid #F0F2F7;
+	font-size: 11px;
+	font-weight: 500;
+}
+.container-items-best-sell-container .container-items-best-sell-item{
+	/*border-top: 1px solid gray;*/
+	border-left: 1px solid #F0F2F7;
+	float: left;
+	/*width: 284px;*/
+	padding-top: 32px;
+	padding-bottom: 32px;
+	padding-left: 46px;
+	padding-right: 46px;
+}
+.container-items-best-sell-container .container-items-best-sell-item:nth-child(1){
+	border-left: none;
+}
+.container-items-best-sell-container .container-items-best-sell-item h1{
+	padding-top: 25px;
+	font-size: 16px;
+	font-weight: 600;
+}
+.container-items-best-sell-container .container-items-best-sell-item img{
+	padding-top: 30px;
+}
+.container-items-best-sell-container .container-items-best-sell-item .color{
+	padding-top: 11px;
+	font-size: 11px;
+	color: #B9BED1;
+	font-weight: 500;
+}
+.container-items-best-sell-container .container-items-best-sell-item .price{
+	padding-top: 24px;
+	font-size: 14px;
+	font-weight: 500;
+}
+.container-items-best-sell-container .container-items-best-sell-item .price s{
+	color: #B9BED1;
+}
+.container-testimonials{
+	background: white;
+	text-align: center;
+	padding-bottom: 90px;
+	padding-top: 74px;
+}
+
+.container-testimonials h1{
+	/*padding-top: 74px;*/
+	font-size: 32px;
+	font-weight: 600;
+}
+.container-testimonials h2{
+	padding-top: 22px;
+	font-size: 16px;
+	color: #B9BED1;
+	font-weight: 500;
+}
+.container-testimonials-list-item{
+	float: left;
+	width: 290px;
+	padding-left: 76px;
+	padding-top: 50px;
+}
+.container-testimonials-list-item p{
+	font-size: 16px;
+	text-align: left;
+	padding-top: 20px;
+}
+.container-testimonials-list-item .name,.container-testimonials-list-item .post{
+	font-size: 14px;
+	padding-top: 0px;
+}
+.container-testimonials-list-item .img{
+	float: left;
+}
+.container-testimonials-list-item .img img{
+	border-radius: 50%;
+}
+.container-testimonials-list-item .titles{
+	float: left;
+	text-align: left;
+	padding-left: 20px;
+	padding-top: 2%;
+}
+.footer{
+	background: #222328;
+}
+.footer-top{
+	border-bottom: 1px solid #2D2E33;
+	text-align: center;
+	/*line-height: 103px;*/
+}
+.footer-top .logo{
+	float: left;
+	line-height: 146px;
+}
+.footer-top .menu{
+	list-style-type: none;
+	display: inline-block;
+	line-height: 146px;
+	color: white;
+}
+.footer-top .menu li{
+	float: left;
+	padding-left: 32px;
+	font-size: 12px;
+	font-weight: 500;
+}
+.footer-top .social{
+	float: right;
+	line-height: 146px;
+}
+.footer-top .social img{
+	padding-left: 24px;
+}
+.footer-bottom{
+	position: relative;
+	color: #B3B3B5;
+}
+.footer-bottom p{
+	font-size: 14px;
+	float: left;
+	width: 522px;
+	position: absolute;
+	top: 40%;
+	font-weight: 600;
+}
+.footer-bottom ul{
+	list-style-type: none;
+	float: right;
+	line-height: 150px;
+}
+.footer-bottom ul li{
+	float:  left;
+	padding-left: 30px;
+	font-size: 11px;
+	font-weight: 500;
+}
