@@ -3,3 +3,25 @@
 		width: 100%;
 	}
 }
+
+@media only screen and (max-width: 740px) {
+	.header-top-left-menu{
+		display: block;
+	}
+	.header-top-ul{
+		display: none;
+	}
+	.header-nav-bar-menu ul{
+		display: none;
+	}
+	.header-nav-bar-menu{
+		background: url('../img/assets/hamburger.png') no-repeat;
+		background-position-y: center;
+		width: 20px;
+		height: 57px;
+		border-right: none;
+	}
+	.header-nav-bar-menu-support{
+		display: none;
+	}
+}
