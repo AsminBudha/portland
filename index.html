@@ -1,44 +1,49 @@
 <!DOCTYPE html>
+<html lang="en">
 <html>
 <head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Portland UI</title>
 	<link href="https://fonts.googleapis.com/css?family=Montserrat:300i,400,500,600,700" rel="stylesheet"> 
 	<link rel="stylesheet" type="text/css" href="css/reset.css">
 	<link rel="stylesheet" type="text/css" href="css/layout.css">
 	<link rel="stylesheet" type="text/css" href="css/style.css">
-	<!-- <link rel="stylesheet" type="text/css" href="css/media-query.css"> -->
+	<link rel="stylesheet" type="text/css" href="css/media-query.css">
+	<script type="text/javascript" src="js/slider.js"></script>
 </head>
 <body>
 	<div class="header">
-		<div class="header-top clearfix">
-			<div class="wrapper align-center">
-				<div class="header-top-left">
-					<div class="header-top-left-menu">
-						<img src="img/assets/hamburger.png" alt="Ham Menu Icon" style="background:green;">
-					</div>
-					<div class="header-top-left-logo">
-						<img src="img/assets/logo.png" alt="Portland Logo">
-					</div>
+		<div class="header-top clearfix wrapper align-center">
+			<div class="header-top-left">
+				<div class="header-top-left-menu">
+					<img src="img/assets/hamburger.png" alt="Ham Menu Icon">
 				</div>
-				<div class="header-top-menu">
-					<ul class="align-center clearfix">
-						<li>Home</li>
-						<li>Devices</li>
-						<li>Delivery & Payment</li>
-						<li>Guarantee</li>
-						<li>About Us</li>
-					</ul>
+				<div class="header-top-left-logo">
+					<img src="img/assets/logo.png" alt="Portland Logo">
 				</div>
-				<div class="header-top-right">
-					<div class="header-top-right-cart">
+			</div>
+			<!-- <div class="header-top-menu">
+				
+			</div> -->
+			<ul class="header-top-ul">
+					<li>Home</li>
+					<li>Devices</li>
+					<li>Delivery & Payment</li>
+					<li>Guarantee</li>
+					<li>About Us</li>
+				</ul>
+			<div class="header-top-right">
+				<div class="header-top-right-cart">
+					<div class="header-top-right-cart-img">
 						<img src="img/assets/cart.png" alt="Cart Icon">
-						CART
-						<span class="header-top-right-cart-num">0</span>
 					</div>
-					<!-- <div class=""> -->
-						<button class="header-top-right-signin">SIGN IN</button>
-					<!-- </div> -->
+					<span class="txt">CART</span>
+					<span class="header-top-right-cart-num">0</span>
 				</div>
+				<!-- <div class=""> -->
+					<button class="header-top-right-signin">SIGN IN</button>
+				<!-- </div> -->
 			</div>
 		</div>
 		<div class="header-nav-bar clearfix">
@@ -85,40 +90,47 @@
 		<div class="container-items">
 			<div class="wrapper align-center">
 				<div class="container-items-all">
-					<div class="container-items-sort">
-						<div class="container-items-sort-left">
-							<span>SORT BY:</span>
-							<select>
-								<option>BEST MATCH</option>
-							</select>
-						</div>
-						<div class="container-items-sort-mid">
-							<ul>
-								<li>
-									<span>KEYWORDS</span>
-									<input type="text" class="keywords" placeholder="Tablet" />
-								</li>
-								<li>
-									<span>PRICE</span>
-									<input type="text" class="price" />
-									-
-									<input type="text" class="price" />
-								</li>
-								<li>
-									<input type="checkbox" value="checked" />
-									<span class="shipping-txt">Free Shipping</span>
-								</li>
-							</ul>
-							
-							
-							
-						</div>
-						<div class="container-items-sort-right">
-							<span>SHIP TO:</span>
-							<select>
-								<option>USA</option>
-							</select>
-						</div>
+					<div class="container-items-sort clearfix">
+						<ul>
+							<li class="container-items-sort-left">
+								<!-- <div> -->
+									<span>SORT BY:</span>
+									<select>
+										<option>BEST MATCH</option>
+									</select>
+								<!-- </div> -->
+							</li>
+							<li  class="container-items-sort-mid">
+								<!-- <div> -->
+									<ul>
+										<li>
+											<span>KEYWORDS</span>
+											<input type="text" class="keywords" placeholder="Tablet" />
+										</li>
+										<li>
+											<span>PRICE</span>
+											<input type="text" class="price" />
+											-
+											<input type="text" class="price" />
+										</li>
+										<li>
+											<input type="checkbox" value="checked" />
+											<span class="shipping-txt">Free Shipping</span>
+										</li>
+									</ul>
+								<!-- </div> -->
+							</li>
+							<li class="container-items-sort-right">
+								
+								<!-- <div> -->
+									<span>SHIP TO:</span>
+									<select>
+										<option>USA</option>
+									</select>
+								<!-- </div>		 -->
+							</li>
+						</ul>
+						
 					</div>
 					<div class="container-items-main clearfix">
 						<div class="col2-left-layout-left">
@@ -213,7 +225,7 @@
 							</div>
 						</div>
 						<div class="col2-left-layout-right clearfix">
-							<div class="row-item clearfix">
+							<!-- <div class="row-item clearfix"> -->
 								<div class="item-box">
 									<div class="item-img">
 										<img src="img/prod1.png" alt="Apple TV">
@@ -238,8 +250,8 @@
 									<p class="color">BLACK</p>
 									<p>$49.99</p>
 								</div>
-							</div>
-							<div class="row-item clearfix">
+							<!-- </div> -->
+							<!-- <div class="row-item clearfix"> -->
 								<div class="item-box">
 									<div class="item-img">
 										<img src="img/prod1.png" alt="Apple TV">
@@ -263,8 +275,8 @@
 									</div>
 									
 								</div>
-							</div>
-							<div class="row-item clearfix">
+							<!-- </div> -->
+							<!-- <div class="row-item clearfix"> -->
 								<div class="item-box">
 									<div class="item-img">
 										<img src="img/prod1.png" alt="Apple TV">
@@ -289,8 +301,8 @@
 									<p class="color">BLACK</p>
 									<p>$49.99</p>
 								</div>
-							</div>
-							<div class="row-item clearfix">
+							<!-- </div> -->
+							<!-- <div class="row-item clearfix"> -->
 								<div class="item-box">
 									<div class="item-img">
 										<img src="img/prod1.png" alt="Apple TV">
@@ -317,7 +329,7 @@
 									</div>
 									
 								</div>
-							</div>
+							<!-- </div> -->
 						</div>
 					</div>
 					<div class="container-items-pagination clearfix">
@@ -418,6 +430,9 @@
 		<div class="footer-top wrapper align-center clearfix">
 			<div class="logo">
 				<img src="img/assets/logo-white.png" alt="Portland Logo">
+			</div>
+			<div class="ham-menu">
+				<img src="img/assets/hamburger.png" alt="Hamburger">
 			</div>
 			<ul class="menu"> 
 				<li>HOME</li>
