@@ -71,7 +71,7 @@
 	background: transparent;
 	font-size: 0.875em;/*14px;*/
 	font-weight: 500;
-	width: 152px;
+	width: 100%;/*152px;*/
 }
 .header-nav-bar-search input:focus{
 	text-decoration: none;
@@ -161,7 +161,7 @@
 	background: white;
 }
 .container-items-sort-left{
-	border-right: 2px solid #E4E5E7;
+	/*border-right: 2px solid #E4E5E7;*/
 	line-height: 56px;
 	font-size: 0.6875em;/*11px;*/
 }
@@ -178,14 +178,16 @@
 }
 .container-items-sort-mid{
 	border-right: 2px solid #E4E5E7;
-	line-height: 56px;
+	/*line-height: 56px;*/
 	font-size: 0.6875em;/*11px;*/
+	border-left: 2px solid #E4E5E7;
 }
 .container-items-sort-right{
 	line-height: 56px;
 	text-align: center;
 	font-size: 0.6875em;/*11px;*/
-	float: right;
+	width: 17.094017094%;/*200px;*/
+	/*padding-right: 20px;*/
 }
 .container-items-sort-right span{
 	color: #A1A8BD;
@@ -280,17 +282,21 @@
 	background: white;
 	border-radius: 5px;
 	text-align: center;
-	padding-right: 40px;
-	padding-left: 40px;
-	padding-top: 35px;
-	padding-bottom: 35px;
+	padding-right: 4.4%;/*40px;*/
+	padding-left: 4.4%;/*40px;*/
+	padding-top: 3.5%;/*35px;*/
+	padding-bottom: 3.5%;/*35px;*/
 	float: left;
-	margin-left: 30px;
+	margin-left: 3.333333333%;/*30px;*/
 	height: 310px;
-	width: 190px;
+	width: 21.111111111%;/*190px;*/
+	margin-bottom: 30px;
 }
 .item-box .item-img{
 	/*text-align: center;*/
+}
+.item-box .item-img img{
+	width: 100%;
 }
 .item-box h1{
 	font-size: 1em;/*16px;*/
@@ -324,7 +330,7 @@
 	position: absolute;
 	top: 2%;
 	left: 5%;
-	width: 240px;
+	width: 88.888888889%;/*240px;*/
 	text-align: center;
 }
 /*.item-box.special p{
@@ -335,7 +341,7 @@
 	text-align: center;
 }*/
 .item-box.wide{
-	width: 63%;
+	width: 63.333333333%;/*570px;/*63%;*/
 	padding: 0px;
 	height: 380px;
 	/*position: relative;*/
@@ -380,7 +386,7 @@
 	border: 2px solid #F0F2F7;
 	margin-top: 2%;
 	margin-right: 5%;
-	width: 240px;
+	width: 42.105263158%;/*240px;*/
 	font-size: 0.6875em;/*11px;*/
 }
 .item-box.wide .buy div{
@@ -431,4 +437,10 @@
 	line-height: 6.428571em;/*90px;*/
 	font-size: 0.875em;/*14px;*/
 	font-weight: 500;
+}
+.container-items-sort ul{
+	list-style-type: none;
+}
+.container-items-sort ul li{
+	float: left;
 }
