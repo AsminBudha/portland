@@ -22,6 +22,9 @@
 		/*margin-left: 1%;*/
 		width: 37%;
 	}
+	.item-box.wide{
+		width: 95%;
+	}
 	.col2-left-layout-left {
 	    width: 40%;
 	}
@@ -129,6 +132,9 @@
 	    width: 100%;
 	    height: auto;
 	}
+	.item-box.wide{
+		width: 100%;
+	}
 	.item-box.special {
 	    height: 310px;
 	}
@@ -148,6 +154,18 @@
 	}
 	.item-box .item-img img {
 	    width: auto;
+
+	}
+	.header-banner-prod-details{
+		width: 100%;/*500px;*/
+		left: 0px;
+	}
+	.header-banner-prod-img{
+		right: 0%;/*195px;*/
+	}
+	.item-box.wide .buy div {
+	    padding-left: 10px;
+	    padding-right: 10px;
 
 	}
 }
