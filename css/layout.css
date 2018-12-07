@@ -363,7 +363,8 @@
 	width: 44.615384615%;/*522px;*/
 	position: absolute;
 	top: 40%;
-	font-weight: 600;
+	/*font-weight: 600;*/
+	font-style: italic;
 }
 .footer-bottom ul{
 	list-style-type: none;
