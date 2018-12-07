@@ -126,8 +126,9 @@
 	/*margin-top: 108px;*/
 	color: white;
 	z-index: 2;
-	background: black;
+	background: #3b3c3f;
 	opacity: 0.8;
+	padding: 15px;
 }
 .header-banner-prod-details h1{
 	font-size: 2.625em;/*42px;*/

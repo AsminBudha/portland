@@ -25,6 +25,9 @@
 		/*height: 56px;*/
 		width: 0px;
 	}
+	.header-nav-bar-menu ul{
+		display: none;
+	}
 	.item-box {
 		/*margin-left: 1%;*/
 		width: 37%;
@@ -58,9 +61,7 @@
 	.header-top-ul{
 		display: none;
 	}
-	.header-nav-bar-menu ul{
-		display: none;
-	}
+	
 	/*.header-nav-bar-menu{
 		background: url('../img/assets/hamburger.png') no-repeat;
 		background-position-y: center;

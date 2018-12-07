@@ -249,7 +249,7 @@ class Slider{
     elem.style.height = '500px';
     elem.style.overflow = 'hidden';
     elem.style.position = 'relative';
-
+    elem.style.background ='#222328';
     return elem;
   }
 
@@ -257,14 +257,13 @@ class Slider{
     elem.style.minWidth = '1000%';
     elem.style.marginLeft = '0px';
     elem.position = 'relative';
-
     return elem;
   }
 
   styleLi(elem){
     // elem.style.background = 'white';
-    elem.style.width = '15px';
-    elem.style.height = '15px';
+    elem.style.width = '10px';
+    elem.style.height = '10px';
     elem.style.marginLeft = '10px';
     elem.style.float = 'left';
     elem.style.borderRadius = '50%';
