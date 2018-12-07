@@ -13,11 +13,29 @@
 	<script type="text/javascript" src="js/slider.js"></script>
 </head>
 <body>
+	 <div id="mySidenav" class="sidenav">
+	  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+	  <a href="#">Home</a>
+	  <a href="#">Devices</a>
+	  <a href="#">Delivery & Payment</a>
+	  <a href="#">About Us</a>
+	  <div class="break"></div>
+	  <a href="#">TOP SALES</a>
+	  <a href="#">BRAND FOCUS</a>
+	  <a href="#">HI-TECH</a>
+	  <a href="#">BEST SELLERS</a>
+	  <a href="#">PROJECTS</a>
+	  <a href="#">SUPPORT</a>
+	</div>
+
+	<!-- Use any element to open the sidenav -->
+	<!-- <span onclick="openNav()">open</span> -->
+
 	<div class="header">
 		<div class="header-top clearfix wrapper align-center">
 			<div class="header-top-left">
 				<div class="header-top-left-menu">
-					<img src="img/assets/hamburger.png" alt="Ham Menu Icon">
+					<img src="img/assets/hamburger.png" alt="Ham Menu Icon" onclick="openNav()">
 				</div>
 				<div class="header-top-left-logo">
 					<img src="img/assets/logo.png" alt="Portland Logo">
@@ -156,7 +174,7 @@
 											<input type="text" class="price" />
 										</li>
 										<li>
-											<input type="checkbox" value="checked" />
+											<input type="checkbox" value="checked" class="checkbox-bg-green" />
 											<span class="shipping-txt">Free Shipping</span>
 										</li>
 									</ul>
@@ -473,8 +491,16 @@
 			<div class="logo">
 				<img src="img/assets/logo-white.png" alt="Portland Logo">
 			</div>
+
+			<div id="menu-bottom" class="menu-bottom">
+			  <a href="javascript:void(0)" class="closebtn" onclick="closeNavBottom()">&times;</a>
+			  <a href="#">Home</a>
+			  <a href="#">Devices</a>
+			  <a href="#">Delivery & Payment</a>
+			  <a href="#">About Us</a>
+			</div>
 			<div class="ham-menu">
-				<img src="img/assets/hamburger.png" alt="Hamburger">
+				<img src="img/assets/hamburger.png" alt="Hamburger" onclick="openNavBottom()">
 			</div>
 			<ul class="menu"> 
 				<li>HOME</li>
@@ -500,5 +526,6 @@
 	<script type="text/javascript">
 		new Slider('slider');
 	</script>
+	<script type="text/javascript" src="js/nav-animate.js"></script>
 </body>
 </html>
