@@ -1,14 +1,12 @@
 .header-top{
 	text-align: center;
 }
-.header-top-left{
-	
-}
+
 .header-top-left-menu{
 	padding-right: 42px;
 	border-right: 1px solid gray;
 	line-height: 6.428571em;/*90px;*/
-	display: none;
+	/* display: none; */
 }
 .header-top-left-logo{
 	padding-left: 32px;
@@ -20,9 +18,7 @@
 .header-top-menu{
 	text-align: center;
 }
-.header-top-menu ul{
 
-}
 .header-top-menu ul li{
 	display:inline;
 	margin: 0 5px;
@@ -79,6 +75,9 @@
 	width: 100%;/*152px;*/
 }
 .header-nav-bar-search input:focus{
+	outline: none;
+}
+.header-nav-bar-search input:focus{
 	text-decoration: none;
 	border: none;
 }
@@ -93,12 +92,16 @@
 	line-height: 56px;
 	color: #B9BED1;
 	font-weight: 600;
-	cursor: pointer;
+	/* cursor: pointer; */
+}
+.header-nav-bar-menu ul li a{
+	text-decoration: none;
+	color: inherit;
 }
 .header-nav-bar-menu ul li.active{
 	color: black;
 }
-.header-nav-bar-menu ul li:hover{
+.header-nav-bar-menu ul li a:hover{
 	color: black;
 }
 
@@ -108,7 +111,10 @@
 	padding-right: 32px;
 	color: #B9BED1;
 	font-weight: 600;
-	cursor: pointer;
+}
+.header-nav-bar-menu-support a{
+	color: inherit;
+	text-decoration: none;
 }
 .header-nav-bar-menu-support:hover{
 	color: black;
@@ -232,8 +238,13 @@
 	font-size: 0.8125em;/*13px;*/
 	border-bottom: 1px solid #F0F2F7;
 	font-weight: 500;
-	cursor: pointer;
+	/* cursor: pointer; */
 }
+.filter-container ul.main li a{
+	text-decoration: none;
+	color: inherit;
+}
+
 .filter-container ul.main li:nth-last-child(1){
 	border-bottom: none;
 }
@@ -243,7 +254,7 @@
 }
 .filter-container ul.main li.active{
 	/*background: url('../img/assets/arrow-down.png') no-repeat right;*/
-	background-position-y: 10%; 
+	background-position-y: 10%;
 	padding: 0px;
 	text-indent: 20px;
 }
@@ -257,7 +268,7 @@
 .filter-container ul.sub li{
 	background: transparent;
 	border-bottom: none;
-	padding: 0px;	
+	padding: 0px;
 	border-top: 1px solid #DFE4EE;
 	font-size: 0.846153em;/*11px;*/
 	color: #A1A8BD;
@@ -320,9 +331,7 @@
 	margin-bottom: 30px;
 	cursor: pointer;
 }
-.item-box .item-img{
-	/*text-align: center;*/
-}
+
 .item-box .item-img img{
 	width: 100%;
 }
@@ -469,9 +478,13 @@
 	line-height: 6.428571em;/*90px;*/
 	font-size: 0.875em;/*14px;*/
 	font-weight: 500;
-	cursor: pointer;
 }
-.header-top-ul li:hover {
+.header-top-ul li a{
+	color: inherit;
+	text-decoration: none;
+}
+
+.header-top-ul li a:hover {
 	color: #B9BED1;
 }
 .container-items-sort ul{
